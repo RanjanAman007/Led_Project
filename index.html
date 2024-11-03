@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>A Light Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        .hover-effect:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="font-roboto bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <a class="flex items-center text-2xl font-bold text-gray-800" href="#">
+                <img alt="Company logo featuring a light bulb with rays" class="h-8 w-8 mr-2" height="32" src="https://storage.googleapis.com/a1aa/image/tvDK0qb1kf1uTC2lowRyPfEXK5SeUggw94UkYNS2VPBQNoanA.jpg" width="32"/>
+                A Light Company
+            </a>
+            <div class="space-x-4">
+                <a class="text-gray-600 hover:text-gray-800" href="#home">Home</a>
+                <a class="text-gray-600 hover:text-gray-800" href="#about">About</a>
+                <a class="text-gray-600 hover:text-gray-800" href="#customize">Customize</a>
+                <a class="text-gray-600 hover:text-gray-800" href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Home Section -->
+    <section class="container mx-auto px-4 py-8" id="home">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Products</h2>
+        <!-- Product Slider -->
+        <div class="relative">
+            <div class="flex overflow-x-scroll space-x-4">
+                <div class="min-w-full hover-effect">
+                    <img alt="Modern LED light in a living room setting" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/xS1sEnY6yTLnB5e0cLK4Jlhuh8xfeJBBmZABinv7iBR49nanA.jpg" width="800"/>
+                </div>
+                <div class="min-w-full hover-effect">
+                    <img alt="Energy-efficient light bulb in a cozy bedroom" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/AKpAe7YIviV8R69wPuyHqor8RbcI7LAjtvg6bTGR6E8fenanA.jpg" width="800"/>
+                </div>
+                <div class="min-w-full hover-effect">
+                    <img alt="Smart light system in a modern kitchen" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/ekjLe8v1UAkS20zZhvdgBflkBtn3QtDKH0LmJoP8j1A89nanA.jpg" width="800"/>
+                </div>
+            </div>
+        </div>
+        <!-- Basic Products -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <img alt="Compact fluorescent lamp" class="w-full h-40 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/Zby0klweKU3pcKuKCdDvlcJpC4GX8fBoJTshDVSdG3d4enanA.jpg" width="300"/>
+                <h3 class="text-xl font-bold text-gray-800">Compact Fluorescent Lamp</h3>
+                <p class="text-gray-600">Energy-efficient and long-lasting.</p>
+                <p class="text-gray-800 font-bold">₹799</p>
+            </div>
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <img alt="LED Bulb" class="w-full h-40 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/K5rbsJK5aAIqL1CpcClxHYf5ueRm4GhLWdQ9fvwNO4S29nanA.jpg" width="300"/>
+                <h3 class="text-xl font-bold text-gray-800">LED Bulb</h3>
+                <p class="text-gray-600">Bright and durable with low energy consumption.</p>
+                <p class="text-gray-800 font-bold">₹649</p>
+            </div>
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <img alt="Smart Light System" class="w-full h-40 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/KSASUwlTtN6oFRcf9VgOdZw3sive6O9p1cgdTRKwGfwy9nanA.jpg" width="300"/>
+                <h3 class="text-xl font-bold text-gray-800">Smart Light System</h3>
+                <p class="text-gray-600">Control your lights with your smartphone.</p>
+                <p class="text-gray-800 font-bold">₹2,299</p>
+            </div>
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <img alt="LED Strip Lights" class="w-full h-40 object-cover mb-4" height="200" src="live.webp" width="300"/>
+                <h3 class="text-xl font-bold text-gray-800">LED Strip Lights</h3>
+                <p class="text-gray-600">Flexible and colorful lighting for any space.</p>
+                <p class="text-gray-800 font-bold">₹999</p>
+            </div>
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <img alt="Smart Fan" class="w-full h-40 object-cover mb-4" height="200" src="fan.jpeg" width="300"/>
+                <h3 class="text-xl font-bold text-gray-800">Smart Fan</h3>
+                <p class="text-gray-600">Energy-efficient fan with smart controls.</p>
+                <p class="text-gray-800 font-bold">₹3,799</p>
+            </div>
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <img alt="Study Lamp" class="w-full h-40 object-cover mb-4" height="200" src="stu.jpg" width="300"/>
+                <h3 class="text-xl font-bold text-gray-800">Study Lamp</h3>
+                <p class="text-gray-600">Adjustable and bright lamp for study or work.</p>
+                <p class="text-gray-800 font-bold">₹1,199</p>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="bg-white py-8" id="about">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">About Us</h2>
+            <p class="text-gray-600">At A Light Company, we are dedicated to reducing e-waste, minimizing electricity wastage, and increasing the lifetime of lights. Our products come with a 2-year warranty, ensuring quality and reliability.</p>
+        </div>
+    </section>
+    <!-- Customize Section -->
+    <section class="container mx-auto px-4 py-8" id="customize">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Customize Your Lighting</h2>
+        <p class="text-gray-600 mb-4">Choose from a variety of options to customize your lighting solutions to fit your needs.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <h3 class="text-xl font-bold text-gray-800">Custom LED Bulbs</h3>
+                <p class="text-gray-600">Select the brightness, color, and shape of your LED bulbs.</p>
+            </div>
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <h3 class="text-xl font-bold text-gray-800">Smart Lighting Systems</h3>
+                <p class="text-gray-600">Integrate smart lighting systems with your home automation setup.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us Section -->
+    <section class="bg-white py-8" id="contact">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Contact Us</h2>
+            <p class="text-gray-600 mb-4">We would love to hear from you! Please fill out the form below to get in touch with us.</p>
+            <form class="bg-gray-100 p-4 shadow-md">
+                <div class="mb-4">
+                    <label class="block text-gray-700" for="name">Name</label>
+                    <input class="w-full p-2 border border-gray-300 rounded" id="name" type="text"/>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700" for="email">Email</label>
+                    <input class="w-full p-2 border border-gray-300 rounded" id="email" type="email"/>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700" for="message">Message</label>
+                    <textarea class="w-full p-2 border border-gray-300 rounded" id="message"></textarea>
+                </div>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <!-- Features Section -->
+    <section class="container mx-auto px-4 py-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Features of Our Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <h3 class="text-xl font-bold text-gray-800">Energy Efficiency</h3>
+                <p class="text-gray-600">Our products are designed to consume less energy, helping you save on electricity bills.</p>
+            </div>
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <h3 class="text-xl font-bold text-gray-800">Long Lifespan</h3>
+                <p class="text-gray-600">Built to last, our lights have a longer lifespan compared to traditional lighting solutions.</p>
+            </div>
+            <div class="bg-white p-4 shadow-md hover-effect">
+                <h3 class="text-xl font-bold text-gray-800">Eco-Friendly</h3>
+                <p class="text-gray-600">We are committed to reducing e-waste and promoting sustainable practices.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
